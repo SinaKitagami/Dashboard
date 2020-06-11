@@ -1,2 +1,4 @@
 db.sqlite3
 token.json
+settings.py
+_pycache_/
