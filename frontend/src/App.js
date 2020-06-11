@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Header from './components/header';
 
 // Mock データ
 const list = [
@@ -19,7 +20,7 @@ const list = [
     }
 ]
 
-class App extends Component {
+class App extends React.Component {
     constructor (props) {
         super(props);
         this.state = { list };
@@ -27,14 +28,7 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                {this.state.list.map(item => (
-                    <div key={item.id}>
-                        <h1>{item.title}</h1>
-                        <p>{item.description}</p>
-                    </div>
-                ))}
-            </div>
+            <Header />
         );
     }
 }
