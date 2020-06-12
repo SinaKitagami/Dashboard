@@ -4,7 +4,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className="items">
-                <h1>ダッシュボード</h1>
+
             </div>
         );
     }
