@@ -1,12 +1,12 @@
 import React from 'react';
 
-class Header extends React.Component {
+class Items extends React.Component {
     render() {
         return (
             <div className="items">
-
+                レスポンス速度:
             </div>
         );
     }
 }
-export default Header;
+export default Items;

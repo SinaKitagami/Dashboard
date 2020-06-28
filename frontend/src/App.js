@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/header';
+import Status from './components/status';
 
 // Mock データ
 const list = [
@@ -28,7 +29,10 @@ class App extends React.Component {
 
     render() {
         return (
-            <Header />
+            <>
+                <Header />
+                <Status />
+            </>
         );
     }
 }
